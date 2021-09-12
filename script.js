@@ -1,10 +1,6 @@
 const itemA = document.querySelector('#item-a')
 const itemB = document.querySelector('.item-b')
 const itemE = document.querySelector('.item-e')
-
-
-const gc = document.querySelector('.grid-container')
-
 const button1 = document.querySelector('.btn-warning')
 const button2 = document.querySelector('.btn-success')
 
