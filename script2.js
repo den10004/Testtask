@@ -21,6 +21,38 @@ function sendForm(event) {
     digitArray.innerHTML=values.digit
 
     console.log('массив данных', values);
+    alert('данные отправлены')
+/*
+    form.onsubmit = async (e) => {
+        e.preventDefault();
+    
+        let response = await fetch('/title', {
+          method: 'POST',
+          body: new FormData(values)
+        })
+        .then(res => res.json())
+        .then(res=> console.log(res))
+    
+        console.log(result);
+    }
+*/
+
+   /*
+   const sendData = async (url, data) => {
+  const response = await fetch(url, {
+    method: 'POST',
+    body: data,
+  });
+
+  if (!response.ok) {
+    throw new Error(`Ошибка по адресу ${url}, статус ошибки ${response.status}`);
+  }
+
+  return await response.json();
+}
+
+
+   */
 }
 
 
